@@ -21,7 +21,7 @@ elem.click()
 ini = time.time()
 
 # Give user 10 sec to click on message box again
-time.sleep(10)
+time.sleep(9)
 
 for i in range(num_of_t):
         pyautogui.typewrite(messa)
